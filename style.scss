@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: moccasin;
+    display: flex;
+    justify-content: space-between; //organiza os itens na largura
+    padding: 10px 30px;
+    align-items: center; //organiza os itens 
+}
+
+div{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    list-style: none;
+    color: black;
+}
+
+button{
+    width: 10vw;
+    border-radius: 20px; //circular a imagem deixar redondinho
+    color: black;
+}
+
+main{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+    img{
+       height: 30vw;
+       width: 60vw;
+    }
+}
+
